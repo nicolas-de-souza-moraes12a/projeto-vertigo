@@ -18,7 +18,7 @@
 header {
     background-image: url(./imagens/Rectangle\ 1.png);
     background-size: cover;
-    height: 4.375rem;
+    height: 8.375rem;
 
     display: flex;
     justify-content: center;
@@ -63,7 +63,7 @@ main {
     font-size: 0.885rem;
     color: var(--gray-800);
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
 }
 
 .login input {

@@ -17,14 +17,14 @@
 
 header {
     background-image: url(./imagens/Rectangle\ 1.png);
-    background-size: cover;
-    height: 8.375rem;
+    background-size: ;
+    height: 4.375rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    margin-bottom: 3.7rem;
+    margin-bottom: 3rem;
 }
 
 main {
@@ -49,6 +49,7 @@ main {
 .input-box {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
 }
 
 .input-box div {
@@ -59,9 +60,10 @@ main {
 }
 
 .login label {
-    font-size: 0.875rem;
+    font-size: 0.885rem;
     color: var(--gray-800);
     font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 
 .login input {
@@ -91,20 +93,20 @@ main {
 }
 
 .login button {
-    margin-top: 1rem;
+    margin-top: 2.2rem;
     margin-bottom: 2rem;
-    padding-block: 1.6rem;
+    padding-block: 1rem;
     width: 100%;
     background: var(--purple);
     border: none;
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
 
     font-size: 1rem;
     font-weight: 700;
     color: var(--white);
 }
 
-.login button :hover {
+.login button:hover {
     background: var(--light-purple);
     transition: 0.3s;
     cursor: pointer;
